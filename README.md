@@ -1,13 +1,13 @@
 # Haasonline Charting Engine
 
 ## Introduction
-Haasonline's Charting Engine (HCE) is a powerful and 100% custom build engine. By combining the advantages of HTML5 canvas and d3.js library we have create a fast, reliable, dynamic and heavily modifiable charting engine with support for touch screens. The HCE supports up to 8 different price chart styles, orderbook chart on axis, 10 indicators styles, 23 drawing tools, double y-axis and both pre calculated and in-house indicators can be rendered. Currently there are 44 in-house indicators supported.
+Haasonline's Charting Engine (HCE) is a powerful and 100% custom build engine. By combining the advantages of HTML5 canvas and d3.js library we have created a fast, reliable, dynamic and heavily modifiable charting engine with support for touch screens. The HCE supports up to 8 different price chart styles, an orderbook chart on axis, 10 indicators styles, 23 drawing tools, double y-axis and both pre-calculated and in-house indicators can be rendered. Currently, there are 44 in-house indicators supported.
 
 ## Features
  - Price chart with 11 different styles
  - Indicator and overlay charts with 15 different styles and endless combinations
  - Backend calculated indicator data supported
- - 39 inhouse indicators
+ - 39 in-house indicators
  - Mobile friendly
  - Touch friendly
  - Supported browsers: Chrome, Edge, Firefox & Opera
@@ -16,7 +16,7 @@ Haasonline's Charting Engine (HCE) is a powerful and 100% custom build engine. B
  - Double y-axis for overlaying data
  - 22 drawing tools
  - Im- & export drawing data
- - Take snapshot and convert to bmp
+ - Take snapshot and convert to BMP
  - Live update supported
  - Fully customizable 
 
@@ -152,11 +152,11 @@ plotter.setColorScheme(colorScheme);
 ```
 
 ## Resize chart
-The engine automaticlly reacts to resizing of the windows, but if the container is resized mannually this needs to be called to resize the chart.
+The engine automatically reacts to resizing of the windows, but if the container is resized manually this needs to be called to resize the chart.
 ```javascript
 plotter.resizePlot();
 ```
 
-[0]:https://github.com/Geesu/HaasonlineCharts/wiki/Data-structure-and-enums
-[1]:https://github.com/Geesu/HaasonlineCharts/wiki/Front-end-options
-[2]:https://github.com/Geesu/HaasonlineCharts/wiki/Front-end-options
+[0]:https://github.com/Vieuxx/HaasolineCharts/wiki/Data-structure-and-enums
+[1]:https://github.com/Vieuxx/HaasolineCharts/wiki/Front-end-options
+[2]:https://github.com/Vieuxx/HaasolineCharts/wiki/Front-end-options
